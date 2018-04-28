@@ -11,6 +11,7 @@ def line(list)
 end
 
 def take_a_number(line, name)
+  line << name
   if line.size === 0
     puts "Welcome, #{name}. You are number 1 in line."
   else
