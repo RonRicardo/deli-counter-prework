@@ -14,6 +14,7 @@ def take_a_number(line, name)
   if line.size === 0
     puts "Welcome, #{name}. You are number 1 in line."
   else
+    line << name
     puts "Welcome, #{name}. You are number #{line.size + 1} in line."
   end
 end
