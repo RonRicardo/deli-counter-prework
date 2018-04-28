@@ -6,7 +6,7 @@ def line(list)
     list.each_with_index do |per, index|
       current_line += " #{index + 1}. #{per}"
     end
-    current_line
+    puts current_line
   end
 end
 
