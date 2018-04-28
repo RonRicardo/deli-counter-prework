@@ -18,3 +18,10 @@ def take_a_number(line, name)
   end
   line << name
 end
+
+def now_serving(line)
+  if line.size === 0
+    puts "There is nobody waiting to be served!"
+  else
+    current = line.shift()
+    puts "Currently serving #{current}."
