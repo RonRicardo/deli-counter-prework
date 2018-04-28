@@ -9,3 +9,10 @@ def line(list)
     current_line
   end
 end
+
+def take_a_number(name)
+  if line.size === 0
+    puts "Welcome, #{name}. You are number 1 in line."
+  else
+    puts "Welcome, #{name}. You are number #{line.size} in line."
+end
